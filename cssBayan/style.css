@@ -62,27 +62,74 @@ body{
     justify-content: center;
     flex-direction: column;
     margin: auto;
-    max-width: 1440px;
+    max-width: 750px;
+}
+
+.main__container:hover > .meme__container > .meme__header-container > .meme__plus-icon{
+    background-image: url("assets/plus-solid.svg");
 }
 
 .meme__main-header{
-    text-align: center;
+   
     font-size: 32px;
     font-weight: 700;
+    margin-bottom: 20px;
+    /* text-align: center; */
 }
 
 .meme__small-header{
-    text-align: center;
+    /* text-align: center; */
     font-size: 24px;
     font-weight: 700;
+
 }
+
+/* .meme__header-container::before{
+    content: "";
+    display: block;
+    background-color: black;
+    height: 1px;
+    width: 100%;
+} */
 
 .meme__container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: auto;
+    margin-bottom: 30px;
 }
+
+.meme__figure{
+    display: none;
+}
+
+.meme__plus-icon{
+    display: none;
+    width: 20px;
+    height: 20px;
+    background-image: url("");
+    background-repeat: no-repeat;
+}
+
+.meme__plus-icon:hover{
+    width: 20px;
+    height: 20px;
+    background-image: url("assets/x-solid.svg");
+    background-repeat: no-repeat;
+}
+
+.meme__header-container{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.meme__header-container:hover ~ .meme__figure{
+    display: block;
+}
+
+
 /* end styles */
 
 
