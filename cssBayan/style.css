@@ -53,9 +53,36 @@ table {
 
 /* start styles */
 
+body{
+    background-color: grey;
+}
 
+.main__container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1440px;
+}
 
+.meme__main-header{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
 
+.meme__small-header{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.meme__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
 /* end styles */
 
 
