@@ -65,12 +65,12 @@ body{
     max-width: 750px;
 }
 
-.main__container:hover > .meme__label > .meme__container > .meme__header-container > .meme__plus-icon{
+.main__container:hover > .meme__wrapper > .meme__label > .meme__container > .meme__header-container > .meme__plus-icon{
     opacity: 1;
     transition: .3s;
 }
 
-.main__container:hover > .meme__label > .meme__container > .meme__header-container > .meme__small-header{
+.main__container:hover > .meme__wrapper > .meme__label > .meme__container > .meme__header-container > .meme__small-header{
     color: black;
 }
 
@@ -140,6 +140,9 @@ body{
     /* height: auto; */
 }
 
+.meme__radio{
+    display: none;
+}
 
 .meme__radio:checked ~ .meme__label > .meme__container .meme__figure{
     opacity: 1;
